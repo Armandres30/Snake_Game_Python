@@ -30,7 +30,7 @@ while True: # game loop
 
     new_head = [snake[0][0], snake[0][1]] # y,x
 
-    if key == curses.KEY_DOWN: #chance movemente of snake
+    if key == curses.KEY_DOWN: #change movemente of snake
         new_head[0] +=1
     if key == curses.KEY_UP:
         new_head[0] -=1
